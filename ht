@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtle Furniture - Furniture that Restores Vitality</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #f5f5f0 0%, #e8e8e0 100%);
+        }
+        
+        .dark-green {
+            background-color: #2d4a3e;
+        }
+        
+        .brown-gradient {
+            background: linear-gradient(135deg, #6b4423 0%, #4a2f1a 100%);
+        }
+        
+        .smooth-scroll {
+            scroll-behavior: smooth;
+        }
+        
+        .hover-lift {
+            transition: transform 0.3s ease;
+        }
+        
+        .hover-lift:hover {
+            transform: translateY(-5px);
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="smooth-scroll bg-white">
+    <!-- Navigation -->
+   <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-emerald-800" viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="12" cy="12" r="10" opacity="0.2"/>
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                    </svg>
+                    <span class="text-sm font-bold tracking-wide text-gray-800">THATTIL FURNITURES</span>
+                </div>
+                
+           <!-- Contact Button -->
+                <button class="bg-emerald-800 text-white px-6 py-2.5 rounded-full text-sm font-medium hover:bg-emerald-900 transition-all">
+                    CONTACT US
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient pt-24 pb-16 md:pt-32 md:pb-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+                <!-- Left Content -->
+                <div class="fade-in">
+                    <p class="text-sm text-gray-600 uppercase tracking-wide mb-4">Ancient Healing Wisdom</p>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extralight text-gray-900 mb-6">
+                        Furniture that<br>
+                        <span class="text-green-800 font-semibold">Restores Vitality</span>
+                    </h1>
+                    <p class="text-gray-600 mb-8 text-base">
+                        Our furniture combines the ancient wisdom of Thattil Healing with modern design, creating spaces that nurture both body and spirit.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                    
+                    </div>
+                </div>
+                
+                <!-- Right Image -->
+                <div class="fade-in">
+                    <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80" 
+                             alt="Minimalist furniture" 
+                             class="w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Statement -->
+    <section class="py-12 md:py-16 bg-[#F9F5EF]">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-xl md:text-2xl text-gray-700 italic mb-4">
+                "Our mission is to bridge the gap between ancient healing and modern living spaces."
+            </p>
+            <p class="text-gray-600 leading-relaxed">
+                At Thattil, we believe that the environment you create has the power to transform the quality of your life. For centuries, ancient cultures have looked to the wisdom of nature's oldest creatures, like turtles, for their grounding and restorative properties. Today, we bring these timeless principles into your home through thoughtfully crafted furniture.
+            </p>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-12 md:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="text-center hover-lift">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-prescription-bottle text-green-800 text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">Prescription-Grade</h3>
+                    <p class="text-sm text-gray-600">Clinically tested healing properties in every piece</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="text-center hover-lift">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-recycle text-green-800 text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">Eco-Conscious</h3>
+                    <p class="text-sm text-gray-600">Sustainably sourced materials for a better planet</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="text-center hover-lift">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hand-holding-heart text-green-800 text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">Handmade Legacy</h3>
+                    <p class="text-sm text-gray-600">Crafted with traditional techniques passed down generations</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="text-center hover-lift">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-green-800 text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">Pure Ingredients</h3>
+                    <p class="text-sm text-gray-600">Natural materials free from harmful chemicals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Healing Collection -->
+    <section id="collection" class="py-16 md:py-24 bg-amber-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">Our Healing Collection</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover-lift">
+                    <div class="bg-gray-100 h-64 md:h-80">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&q=80" 
+                             alt="Ayurvedic Medicine Cot" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Ayurvedic Medicine Cot</h3>
+                        <p class="text-gray-600 mb-4">
+                            Experience deep restoration with our signature healing cot, designed using ancient Ayurvedic principles to promote balance and wellness.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover-lift">
+                    <div class="bg-black h-64 md:h-80">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80" 
+                             alt="The Healing Chair" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">The Healing Chair</h3>
+                        <p class="text-gray-600 mb-4">
+                            Sit in comfort while absorbing therapeutic benefits. Our healing chair combines ergonomic design with natural healing properties.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Science of Absorption -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Image -->
+                <div class="order-2 md:order-1">
+                    <div class="rounded-2xl overflow-hidden shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?w=600&q=80" 
+                             alt="Wood craftsmanship" 
+                             class="w-full h-auto object-cover">
+                    </div>
+                </div>
+                
+                <!-- Content -->
+                <div class="order-1 md:order-2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">The Science of Absorption</h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-800 text-white rounded-full flex items-center justify-center font-bold">
+                                01
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Deep Infusion</h4>
+                                <p class="text-gray-600">
+                                    Our proprietary process infuses healing properties deep into the wood grain, ensuring long-lasting therapeutic benefits.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-800 text-white rounded-full flex items-center justify-center font-bold">
+                                02
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Natural Release</h4>
+                                <p class="text-gray-600">
+                                    The materials gradually release beneficial compounds into your living space, creating a healing environment.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-800 text-white rounded-full flex items-center justify-center font-bold">
+                                03
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Energy Balancing</h4>
+                                <p class="text-gray-600">
+                                    Experience improved energy flow and balance through our scientifically-backed design principles.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biological Benefits -->
+    <section id="benefits" class="py-16 md:py-24 dark-green">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">Biological Benefits</h2>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Benefit 1 -->
+                <div class="text-center text-white">
+                    <div class="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-spa text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Micro-Circulation</h3>
+                    <p class="text-sm text-green-100">Improves blood flow and oxygen delivery</p>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="text-center text-white">
+                    <div class="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bolt text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Toxin-Free</h3>
+                    <p class="text-sm text-green-100">Naturally purifies your living environment</p>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="text-center text-white">
+                    <div class="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heartbeat text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Stress Reduction</h3>
+                    <p class="text-sm text-green-100">Promotes relaxation and mental clarity</p>
+                </div>
+                
+                <!-- Benefit 4 -->
+                <div class="text-center text-white">
+                    <div class="w-16 h-16 bg-green-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Immune Boost</h3>
+                    <p class="text-sm text-green-100">Supports natural immune function</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nature's Pharmacy -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">Nature's Pharmacy</h2>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden hover-lift">
+                    <div class="h-48">
+                        <img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?w=400&q=80" 
+                             alt="Natural Strength" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Natural Strength</h3>
+                        <p class="text-gray-600 text-sm">Premium hardwoods selected for durability and healing properties</p>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden hover-lift">
+                    <div class="h-48 bg-black">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&q=80" 
+                             alt="Pure Craftsmanship" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Pure Craftsmanship</h3>
+                        <p class="text-gray-600 text-sm">Hand-finished pieces that showcase natural beauty</p>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden hover-lift">
+                    <div class="h-48">
+                        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&q=80" 
+                             alt="Medicinal Treat" 
+                             class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Medicinal Treat</h3>
+                        <p class="text-gray-600 text-sm">Infused with therapeutic oils and natural essences</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Begin Journey -->
+    <section id="journey" class="py-16 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">How to Begin Your Journey</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-800 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                        1
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Discover</h3>
+                    <p class="text-gray-600">
+                        Explore our collection and find pieces that resonate with your healing journey
+                    </p>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-800 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                        2
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Consult</h3>
+                    <p class="text-gray-600">
+                        Connect with our wellness experts to create your personalized healing space
+                    </p>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-green-800 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                        3
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Transform</h3>
+                    <p class="text-gray-600">
+                        Experience the restorative power of ancient wisdom in your daily life
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Form -->
+    <section class="py-16 md:py-24 brown-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Left Content -->
+                <div class="text-white">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Begin Your Healing Consultation</h2>
+                    <p class="mb-6 text-gray-100">
+                        Start your journey to wellness with a personalized consultation. Our healing experts will guide you to create spaces that nurture your well-being.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-phone text-xl"></i>
+                            <span>+91 989 7765 8900</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-envelope text-xl"></i>
+                            <span>info@turtlefurniture.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Form -->
+                <div class="bg-white rounded-2xl p-8 shadow-2xl">
+                    <form id="consultation-form" class="space-y-4">
+                        <div>
+                            <input type="text" placeholder="Your Name" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-800 focus:border-transparent outline-none">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email Address" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-800 focus:border-transparent outline-none">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="Phone Number" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-800 focus:border-transparent outline-none">
+                        </div>
+                        <div>
+                            <textarea placeholder="Tell us about your wellness goals..." rows="4"
+                                      class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-800 focus:border-transparent outline-none resize-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-green-800 text-white px-6 py-3 rounded-lg hover:bg-green-900 transition font-semibold">
+                            Book Consultation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Form Submission
+        const consultationForm = document.getElementById('consultation-form');
+        consultationForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your interest! Our team will contact you soon.');
+            consultationForm.reset();
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    window.scrollTo({
+                        top: target.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
